@@ -3,10 +3,20 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Building GCC compilers on an HPC cluster" href="blog/2020-05-20-building-gcc.html" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7F4PVWBZ8T"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-7F4PVWBZ8T');
+            
+        </script>
+    <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Hoffman2 Cluster" href="hoffman2/index.html" />
 
     <meta name="generator" content="sphinx-4.4.0, furo 2022.01.02"/>
-        <title>Knowledge Base</title>
+        <title>Technical Docs</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=df49af52631e7917044a9c21a57f7b83170a6dd0" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
@@ -125,7 +135,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="#"><div class="brand">Knowledge Base</div></a>
+      <a href="#"><div class="brand">Technical Docs</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -136,7 +146,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -151,7 +161,7 @@
     <img class="sidebar-logo" src="_static/oarc-cs-logo.svg" alt="Logo"/>
   </div>
   
-  <span class="sidebar-brand-text">Knowledge Base</span>
+  <span class="sidebar-brand-text">Technical Docs</span>
   
 </a><form class="sidebar-search-container" method="get" action="search.html" role="search">
   <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
@@ -159,15 +169,22 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <p class="caption" role="heading"><span class="caption-text">Technical Notes</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="blog/2020-05-20-building-gcc.html">Building gcc</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2020-06-08-matlab-vmem.html">Matlab virtual memory</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2020-06-11-rstudio-vmem.html">RStudio virtual memory</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2022-02-07-wait-time.html">Hoffman2 Cluster wait time</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2022-03-08-cloud-computing-enterprise-discount.html">UCLA Cloud Computing Enterprise Discount</a></li>
+  <ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="hoffman2/index.html">Hoffman2 Cluster</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="hoffman2/matlab-vmem.html">Virtual Memory Consumption of Matlab Graphical User Interface on Hoffman2 Cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hoffman2/rstudio-vmem.html">Virtual Memory Size of Launching RStudio on Hoffman2 Cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hoffman2/wait-time.html">Interpretation of Wait Time in HPC Cluster Job Scheduling</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Workshops</span></p>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="swe/index.html">Software Engineering Related</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="swe/building-gcc.html">Building GCC compilers on an HPC cluster</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="cloud/index.html">Cloud Computing for HPC</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="cloud/enterprise-discount.html">Discount programs for commercial clouds</a></li>
+</ul>
+</li>
+</ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="ws/job-scheduling/index.html">Hoffman2 Cluster Job Scheduling</a></li>
 </ul>
@@ -190,40 +207,60 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Technical Notes</span></p>
+          <section id="technical-documentation">
+<h1>Technical Documentation<a class="headerlink" href="#technical-documentation" title="Permalink to this headline">¶</a></h1>
+<p>This the top level of the technical documentation tree maintained by the OARC Computational Science Group.
+We share our notes and writeups here in an early-release and frequent-update fashion in the hope that they
+are useful for the campus computational research community.
+As of 2022-07, this website is under active construction.</p>
+<section id="user-oriented-documentation">
+<h2>User-oriented documentation<a class="headerlink" href="#user-oriented-documentation" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="blog/2020-05-20-building-gcc.html">Building gcc</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2020-06-08-matlab-vmem.html">Matlab virtual memory</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2020-06-11-rstudio-vmem.html">RStudio virtual memory</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2022-02-07-wait-time.html">Hoffman2 Cluster wait time</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2022-03-08-cloud-computing-enterprise-discount.html">UCLA Cloud Computing Enterprise Discount</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hoffman2/index.html">Hoffman2 Cluster</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="hoffman2/matlab-vmem.html">Virtual Memory Consumption of Matlab Graphical User Interface on Hoffman2 Cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hoffman2/rstudio-vmem.html">Virtual Memory Size of Launching RStudio on Hoffman2 Cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hoffman2/wait-time.html">Interpretation of Wait Time in HPC Cluster Job Scheduling</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="swe/index.html">Software Engineering Related</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="swe/building-gcc.html">Building GCC compilers on an HPC cluster</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cloud/index.html">Cloud Computing for HPC</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cloud/enterprise-discount.html">Discount programs for commercial clouds</a></li>
+</ul>
+</li>
 </ul>
 </div>
+</section>
+<section id="online-training-materials">
+<h2>Online training materials<a class="headerlink" href="#online-training-materials" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Workshops</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="ws/job-scheduling/index.html">Hoffman2 Cluster Job Scheduling</a></li>
 </ul>
 </div>
+</section>
+</section>
 
         </article>
       </div>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="blog/2020-05-20-building-gcc.html">
+          <a class="next-page" href="hoffman2/index.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Building GCC compilers on an HPC cluster</div>
+                <div class="title">Hoffman2 Cluster</div>
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
@@ -237,8 +274,28 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contents
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Technical Documentation</a><ul>
+<li><a class="reference internal" href="#user-oriented-documentation">User-oriented documentation</a></li>
+<li><a class="reference internal" href="#online-training-materials">Online training materials</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

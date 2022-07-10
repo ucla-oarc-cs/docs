@@ -2,9 +2,19 @@
 <html class="no-js">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark"><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="#" />
+    <meta name="color-scheme" content="light dark">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7F4PVWBZ8T"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            
+            gtag('config', 'G-7F4PVWBZ8T');
+            
+        </script>
+    <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="#" />
 
-    <meta name="generator" content="sphinx-4.4.0, furo 2022.01.02"/><title>Search - Knowledge Base</title><link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <meta name="generator" content="sphinx-4.4.0, furo 2022.01.02"/><title>Search - Technical Docs</title><link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=df49af52631e7917044a9c21a57f7b83170a6dd0" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.59c74d8c95b765a7fd995ac71d459ebe.min.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=fade93df149f7c5fedb3ff897f799dc7d283b420" />
@@ -122,7 +132,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="index.html"><div class="brand">Knowledge Base</div></a>
+      <a href="index.html"><div class="brand">Technical Docs</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -148,7 +158,7 @@
     <img class="sidebar-logo" src="_static/oarc-cs-logo.svg" alt="Logo"/>
   </div>
   
-  <span class="sidebar-brand-text">Knowledge Base</span>
+  <span class="sidebar-brand-text">Technical Docs</span>
   
 </a><form class="sidebar-search-container" method="get" action="#" role="search">
   <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
@@ -156,15 +166,22 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <p class="caption" role="heading"><span class="caption-text">Technical Notes</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="blog/2020-05-20-building-gcc.html">Building gcc</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2020-06-08-matlab-vmem.html">Matlab virtual memory</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2020-06-11-rstudio-vmem.html">RStudio virtual memory</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2022-02-07-wait-time.html">Hoffman2 Cluster wait time</a></li>
-<li class="toctree-l1"><a class="reference internal" href="blog/2022-03-08-cloud-computing-enterprise-discount.html">UCLA Cloud Computing Enterprise Discount</a></li>
+  <ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="hoffman2/index.html">Hoffman2 Cluster</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="hoffman2/matlab-vmem.html">Virtual Memory Consumption of Matlab Graphical User Interface on Hoffman2 Cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hoffman2/rstudio-vmem.html">Virtual Memory Size of Launching RStudio on Hoffman2 Cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hoffman2/wait-time.html">Interpretation of Wait Time in HPC Cluster Job Scheduling</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Workshops</span></p>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="swe/index.html">Software Engineering Related</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="swe/building-gcc.html">Building GCC compilers on an HPC cluster</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="cloud/index.html">Cloud Computing for HPC</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="cloud/enterprise-discount.html">Discount programs for commercial clouds</a></li>
+</ul>
+</li>
+</ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="ws/job-scheduling/index.html">Hoffman2 Cluster Job Scheduling</a></li>
 </ul>
